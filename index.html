@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Poppins:wght@500&family=Tilt+Prism&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="Container">
+   	<h1>TEMPERATURE CONVERTER</h1>
+     <div class="celsius">
+   	   <label for="celsius">Celsius:</label>
+   	   <input type="Number" name="cen" placeholder="Enter Temperature in Celsius" id="celsius">
+   	   <button onclick="convertToFahrenheit()" class="farhe">CONVERT TO FAHRENHEIT</button>
+   	</div>
+       <div class="farhenheit">
+   	    <label for="Farhenheit">Fahrenheit:</label>
+   	    <input type="Number" name="cen" placeholder="Enter Temperature in Fahrenheit" id="fahrenheit">
+   	    <button onclick="convertToCelsius()" class="farhe">CONVERT TO CELSIUS</button>
+   	 </div>
+   </div>
+   <script src="Tem.js"></script>
+</body>
+</html>
